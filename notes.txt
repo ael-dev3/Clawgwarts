@@ -1,0 +1,26 @@
+# Gather Town - Pixel Art Digital Workspace Notes
+
+Overview / How it works
+- Gather uses spatial video chat: audio/video gets clearer as avatars get closer and fades with distance. Connection starts at 5 tiles and is full within 2 tiles; private areas, quiet mode, ghost mode, and DND change this behavior.
+- Movement is grid-based: one keypress moves one tile; tiles are 32x32 pixels. This grid is the basis for all map design and pixel art assets.
+
+Map scale and layout
+- Spaces are built from Maps (Rooms). A map maxes at 3200x3200 px (100x100 tiles); spaces can contain multiple maps.
+- Background/foreground images must be PNG/JPG (foreground must be PNG), under 3 MB, sized to multiples of 32, and under 3200x3200; background and foreground must match dimensions.
+- Avatars are ~30-36 px tall and overlap the tile above, which matters for how tall objects/walls should look.
+
+Objects and interactions (workspace behavior)
+- Objects can be interactive; interactions include embedded websites/images/videos, external calls, or note objects. This lets desks, whiteboards, or TVs act like real tools in a digital workspace.
+- Custom objects can be uploaded; Gather recommends matching its pixel art style. Tiles are 32x32, so object art should be scaled to that grid; use transparent PNGs and resize before upload.
+- Interactions are triggered by approaching objects; some objects prompt users to press `x` to interact.
+
+Tile effects (behavior on the grid)
+- Mapmaker includes special tile types for effects (impassable, spawn, portal, private area, spotlight). These are applied per tile to control movement and behavior.
+
+Sources
+- https://support.gather.town/hc/en-us/articles/15909782743444-Overview-of-Spatial-Audio-Video
+- https://support.gather.town/hc/en-us/articles/15910385115412-Tile-Effects-Overview
+- https://support.gather.town/hc/en-us/articles/15910389699604-Sizes
+- https://support.gather.town/hc/en-us/articles/15910430385172-Custom-Map-Overview
+- https://support.gather.town/hc/en-us/articles/15910376994708-Objects-Overview
+- https://support.gather.town/hc/en-us/articles/15909788073236-Custom-Objects
