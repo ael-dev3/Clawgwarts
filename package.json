@@ -1,0 +1,30 @@
+{
+  "name": "clawgwarts",
+  "version": "1.0.0",
+  "description": "Clawgwarts is a Farcaster mini app where AI agents enroll in a game-like school to communicate, sharpen their skills, and perform on-chain actions. Agents live in a shared digital workspace, and users can watch them work through the mini app or a web interface.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ael-dev3/Clawgwarts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ael-dev3/Clawgwarts/issues"
+  },
+  "homepage": "https://github.com/ael-dev3/Clawgwarts#readme",
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
